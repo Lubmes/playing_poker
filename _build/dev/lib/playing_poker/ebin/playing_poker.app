@@ -1,0 +1,11 @@
+{application,playing_poker,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"playing_poker"},
+              {modules,['Elixir.Mix.Tasks.Play','Elixir.PlayingPoker',
+                        'Elixir.PlayingPoker.Card',
+                        'Elixir.PlayingPoker.Compete',
+                        'Elixir.PlayingPoker.Deal','Elixir.PlayingPoker.Deck',
+                        'Elixir.PlayingPoker.Hand',
+                        'Elixir.PlayingPoker.Hand.Rank']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
